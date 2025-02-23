@@ -5,7 +5,6 @@ import { ModelSection } from "./components/ModelSection";
 import SupportSection from "./components/SupportSection";
 import { MobileAdSection } from "./components/MobileAdSection";
 import Layout from "./Layout";
-import { FoundersMessage } from "./components/FoundersMessage";
 import LicenseSection from "./components/LicenseSection";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import NotFound from "./components/NotFound";
@@ -40,7 +39,8 @@ const AppRoutes = createBrowserRouter([
         element: (
           <div>
             <BodySection />
-            <FoundersMessage />
+            {/* <FoundersMessage /> */}
+            {/** Keeping this commented for now as per the client's demand*/}
           </div>
         ),
       },

@@ -2,7 +2,7 @@ const LicensePage = () => {
   return (
     <div className="bg-white py-[80px] px-[20px] md:px-[40px]">
       {/* Page Title */}
-      <div className="max-w-[800px] mx-auto text-center">
+      <div className="max-w-[800px] mx-auto">
         <h1 className="text-[32px] md:text-[48px] font-semibold text-[#333] mb-[24px]">
           License Information
         </h1>

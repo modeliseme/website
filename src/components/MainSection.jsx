@@ -16,12 +16,15 @@ export const MainSection = () => {
         <div className="text-white flex flex-row md:flex-col justify-between md:justify-normal">
           <div className="flex-col">
             <div className="font-mulish text-[calc(0.5em+3vw)] xl:text-[calc(0.5em+2.25vw)] font-[900]">
+              Snap Apparel.
+            </div>
+            <div className="font-mulish text-[calc(0.5em+3vw)] xl:text-[calc(0.5em+2.25vw)] font-[900]">
               Shop smarter.
             </div>
             <div className="font-mulish text-[calc(0.5em+3vw)] xl:text-[calc(0.5em+2.25vw)] font-[900]">
               Try virtually.
             </div>
-            <div className="font-mulish text-[calc(0.5em+3vw)] xl:text-[calc(0.5em+2.25vw)] font-[400]">
+            <div className="font-mulish text-[calc(0.25em+3vw)] xl:text-[calc(0.25em+2.25vw)] font-[400]">
               with ModeliseMe
             </div>
           </div>
