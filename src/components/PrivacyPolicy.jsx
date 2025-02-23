@@ -2,7 +2,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="bg-white py-[80px] px-[20px] md:px-[40px]">
       {/* Page Title */}
-      <div className="max-w-[800px] mx-auto text-center">
+      <div className="max-w-[800px] mx-auto">
         <h1 className="text-[32px] md:text-[48px] font-semibold text-[#333] mb-[24px]">
           Privacy Policy
         </h1>
@@ -92,10 +92,23 @@ const PrivacyPolicy = () => {
           </p>
         </div>
 
-        {/* Section 7: Contact Information */}
+        {/* Section 7: Changes to This Privacy Policy */}
         <div>
           <h2 className="text-[24px] font-semibold text-[#333] mb-[12px]">
-            7. Contact Information
+            7. Age Restrictions
+          </h2>
+          <p className="text-[16px] text-gray-700 font-light">
+            Our application and services are not intended for individuals under
+            the age of 13. By using our website you confirm that you are at
+            least 13 years old. If you are under 13, you are not permitted to
+            access or use our services.
+          </p>
+        </div>
+
+        {/* Section 8: Contact Information */}
+        <div>
+          <h2 className="text-[24px] font-semibold text-[#333] mb-[12px]">
+            8. Contact Information
           </h2>
           <p className="text-[16px] text-gray-700 font-light">
             If you have any questions regarding this Privacy Policy or wish to
